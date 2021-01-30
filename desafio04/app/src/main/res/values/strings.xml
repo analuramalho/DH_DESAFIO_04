@@ -1,3 +1,26 @@
 <resources>
     <string name="app_name">desafio04</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="remember_me">Remember</string>
+    <string name="log_in">Log in</string>
+    <string name="create_account">Create Account</string>
+    <string name="name">Name</string>
+    <string name="confirm_password">Repeat password</string>
+    <string name="cover_details_game">cover details game</string>
+    <string name="back">back</string>
+    <string name="edit">edita</string>
+    <string name="created_at">Created At</string>
+    <string name="description">Description</string>
+    <string name="save_game">Save Game</string>
+
+    <string name="erro_senha">Informe a senha</string>
+    <string name="erro_email">Informe o email</string>
+    <string name="erro_nome">Informe o nome</string>
+    <string name="minimo_senha">Minimo 6 caracteres</string>
+    <string name="descricao_vazia">Informe a descrição do game</string>
+    <string name="createAt_vazio">Informe a data de lançamento do game</string>
+    <string name="nomegame_vazio">Informe o nome do game</string>
 </resources>

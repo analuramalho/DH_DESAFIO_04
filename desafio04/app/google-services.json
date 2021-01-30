@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "876336243666",
+    "project_id": "desafio04-5f8ba",
+    "storage_bucket": "desafio04-5f8ba.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:876336243666:android:092bd2334b97dd3e685e0b",
+        "android_client_info": {
+          "package_name": "com.analuramalho.desafio04"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "876336243666-ge9mq1ipnst4uhlk7quq74tliaoadfph.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBzZQOjxN8tM9reUWJ4lbknZgeIL1D9ilM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "876336243666-ge9mq1ipnst4uhlk7quq74tliaoadfph.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
