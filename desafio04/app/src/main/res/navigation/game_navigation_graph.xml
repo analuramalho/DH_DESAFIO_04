@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/home_navigation_graph"
+    app:startDestination="@id/gameFragment">
+
+    <fragment
+        android:id="@+id/registerGameFragment"
+        android:name="com.analuramalho.desafio04.registerGame.view.RegisterGameFragment"
+        android:label="fragment_register_game"
+        tools:layout="@layout/fragment_register_game" >
+        <action
+            android:id="@+id/action_registerGameFragment_to_gameFragment"
+            app:destination="@id/gameFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/detailsGameFragment"
+        android:name="com.analuramalho.desafio04.detailsGame.view.DetailsGameFragment"
+        android:label="fragment_details_game"
+        tools:layout="@layout/fragment_details_game" >
+        <action
+            android:id="@+id/action_detailsGameFragment_to_registerGameFragment"
+            app:destination="@id/registerGameFragment" />
+        <action
+            android:id="@+id/action_detailsGameFragment_to_gameFragment"
+            app:destination="@id/gameFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/gameFragment"
+        android:name="com.analuramalho.desafio04.home.view.GameFragment"
+        android:label="fragment_game"
+        tools:layout="@layout/fragment_game" >
+        <action
+            android:id="@+id/action_gameFragment_to_detailsGameFragment"
+            app:destination="@id/detailsGameFragment" />
+        <action
+            android:id="@+id/action_gameFragment_to_registerGameFragment"
+            app:destination="@id/registerGameFragment" />
+    </fragment>
+</navigation>

@@ -6,8 +6,8 @@
     android:layout_height="match_parent"
     android:padding="@dimen/dimen_10dp"
     android:orientation="vertical"
-    android:background="#DDDDDD"
-    tools:context=".home.view.HomeFragment">
+    android:background="@color/gray2"
+    tools:context=".home.view.GameFragment">
 
     <androidx.appcompat.widget.SearchView
         android:id="@+id/searchView"
@@ -19,6 +19,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rvHome"
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_marginTop="16dp"
@@ -29,7 +30,7 @@
         tools:listitem="@layout/card_list_item" />
 
     <com.google.android.material.floatingactionbutton.FloatingActionButton
-        android:id="@+id/fab"
+        android:id="@+id/btnAdd_Home"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="end|bottom"

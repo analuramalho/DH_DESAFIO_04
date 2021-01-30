@@ -15,4 +15,12 @@
     <string name="created_at">Created At</string>
     <string name="description">Description</string>
     <string name="save_game">Save Game</string>
+
+    <string name="erro_senha">Informe a senha</string>
+    <string name="erro_email">Informe o email</string>
+    <string name="erro_nome">Informe o nome</string>
+    <string name="minimo_senha">Minimo 6 caracteres</string>
+    <string name="descricao_vazia">Informe a descrição do game</string>
+    <string name="createAt_vazio">Informe a data de lançamento do game</string>
+    <string name="nomegame_vazio">Informe o nome do game</string>
 </resources>
