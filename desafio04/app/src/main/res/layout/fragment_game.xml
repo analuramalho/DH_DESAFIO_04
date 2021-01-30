@@ -30,7 +30,7 @@
         tools:listitem="@layout/card_list_item" />
 
     <com.google.android.material.floatingactionbutton.FloatingActionButton
-        android:id="@+id/btnAdd_Home"
+        android:id="@+id/btnAdd_GameFragment"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="end|bottom"
